@@ -362,7 +362,7 @@ async def upload_prices(watch_remnants, client_id, seller_token):
     for some_price in list(divide(prices, 1000)):
         update_price(some_price, client_id, seller_token)
     return prices
-
+ 
 
 async def upload_stocks(watch_remnants, client_id, seller_token):
     """Асинхронно обновляет остатки всех товаров на Ozon.
